@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavesh Rupasinghe | Full-Stack Developer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo-text">Gavesh.</a>
+        
+        <div class="nav-links" id="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            
+            <div class="nav-socials">
+                <a href="https://github.com/gaveshrupasinghe1point0" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourlinkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section" id="home">
+        <div class="container hero-section">
+            
+            <div class="hero-content fade-in">
+                <div class="greeting">Hi, my name is</div>
+                <h1><span class="highlight">Gavesh Rupasinghe</span>.</h1>
+                <p class="hero-desc">Driven by logic and design, currently building full-stack applications with an emphasis on seamless user experiences and robust architectures.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-in">
+                <div class="gradient-sphere"></div>
+                
+                <div class="profile-photo-container">
+                    <img src="profile.jpeg" alt="Gavesh Rupasinghe">
+                </div>
+
+                <!-- Floating Tech Stack Icons -->
+                <div class="glass-card element-1"><i class="fa-brands fa-js"></i></div>
+                <div class="glass-card element-2"><i class="fa-brands fa-python"></i></div>
+                <div class="glass-card element-3"><i class="fa-solid fa-database"></i></div>
+                <div class="glass-card element-4" style="color: #659AD2; font-family: 'JetBrains Mono', monospace; font-size: 2rem; font-weight: bold;">{ }</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">About Me</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>I am a passionate software developer with a strong foundation in both front-end and back-end web technologies. I enjoy solving complex problems and turning creative ideas into functional, beautiful applications.</p>
+                </div>
+
+                <div class="education-timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>BSc (Hons) Computer Science</h3>
+                            <h4>University of Plymouth</h4>
+                            <p>Currently expanding my technical expertise, focusing on modern software engineering practices and advanced computing concepts.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Undergraduate Studies</h3>
+                            <h4>NSBM Green University</h4>
+                            <p>Built my core foundation in programming logic, algorithms, databases, and foundational computer science principles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">My Skills</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="skills-grid">
+                
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-html5 skill-icon html-icon"></i>
+                    <i class="fa-brands fa-css3-alt skill-icon css-icon"></i>
+                    <h3>Frontend Basics</h3>
+                    <p>Building responsive, accessible structures and layouts from the ground up.</p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-js skill-icon js-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>Writing highly interactive, dynamic client-side logic for modern web features.</p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-python skill-icon py-icon"></i>
+                    <h3>Python</h3>
+                    <p>Engineering clean, efficient backend services, automation, and data processing architectures.</p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <i class="fa-solid fa-c skill-icon" style="color: #659AD2;"></i>
+                    <h3>C & Systems</h3>
+                    <p>Low-level programming capability for high-performance and memory-efficient computing.</p>
+                </div>
+
+                <div class="skill-card fade-in">
+                    <i class="fa-solid fa-server skill-icon supa-icon"></i>
+                    <h3>SQL & Supabase</h3>
+                    <p>Designing relational databases and integrating instant Backend-as-a-Service infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card fade-in">
+                    <div class="project-image bg-gradient-1">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>Interactive Web App</h3>
+                        <p>A responsive front-end interface demonstrating complex animations, state management, and modern UI/UX design choices.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.9rem;" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image bg-gradient-2">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Supabase</span>
+                            <span>SQL</span>
+                        </div>
+                        <h3>Data Integration API</h3>
+                        <p>A robust backend system built to process user data dynamically and manage interactions seamlessly with a Supabase PostgreSQL instance.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <h3>Let's build something.</h3>
+                    <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:gaveshrupasinghe12@gmail.com" style="color:#fff;">gaveshrupasinghe12@gmail.com</a>
+                    </div>
+
+                    <div class="detail-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+94706957211" style="color:#fff;">+94706957211</a>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Plymouth, UK</span>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="hidden" name="access_key" value="2c3fda62-5f91-47f1-bbe5-9cde9f6ddc86">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn submit-btn" id="submitBtn">
+                            <span>Send Message</span> <i class="fa-solid fa-paper-plane" style="margin-left: 8px;"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/gaveshrupasinghe1point0" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourlinkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Gavesh Rupasinghe. Designed & Built from scratch.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
